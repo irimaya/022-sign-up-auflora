@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 {
+  font-size: 3.052rem;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 2.441rem;
+  font-weight: lighter;
+}
+
+/* Utility Classes */
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 10px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  padding: 13px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-light {
+  background: #6FDBA1;
+  color: #fff;
+  border: solid 1px#fff;
+}
+
+.btn-dark {
+  background: #ff5a21;
+  color: #fff;
+  border: none;
+}
+
+.large {
+  font-size: 1.563rem;
+}
+
+.small {
+  font-size: .8rem;
+}
+
+.small a {
+  text-decoration: underline;
+}
+
+/* Navbar */
+#navbar {
+  background: #6FDBA1;
+  height: 10vh;
+}
+
+#navbar .logo{
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar .logo img {
+  height: 50px;
+}
+
+#navbar .navbtn a{
+  float: right;
+  margin-top: 20px;
+}
+
+/* Sign Up */
+#signup {
+  color: #fff;
+  text-align: center;
+  padding-top: 270px;
+  background: linear-gradient(#6FDBA1, #9ce8bb);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+
+#signup h1 {
+  padding-bottom: 10px;
+}
+
+#signup p {
+  padding: 15px;
+}
+
+/* Contact Form */
+#signup input {
+  padding: 20px;
+  margin: 10px;
+  border: 1px #ddd solid;
+  border-radius: 6px;
+  color: #c4c4c4;
+  width: 250px;
+}
+
+#signup .form-us input {
+  width: 530px;
+}
+
+#signup button {
+  margin-top: 10px;
+  width: 530px;
+}
+
+/* Log In */
+#login {
+  text-align: center;
+  padding-top: 230px;
+  color: #fff;
+  background: linear-gradient(#6FDBA1, #9ce8bb);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+#login img {
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+#login input {
+  padding: 20px;
+  margin: 10px;
+  border: 1px #ddd solid;
+  border-radius: 6px;
+  color: #c4c4c4;
+  width: 250px;
+}
+
+#login button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 250px;
+}
+
+/* Terms of Service */
+#terms {
+  padding: 60px 10px;
+  height: 80vh;
+}
+
+#terms p {
+  padding: 15px 0;
+}
+
+/* Footer */
+#main-footer p{
+  text-align: center;
+  height: 10vh;
+}
